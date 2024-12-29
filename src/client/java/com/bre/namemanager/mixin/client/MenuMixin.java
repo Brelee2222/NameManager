@@ -1,4 +1,4 @@
-package com.bre.namemanager.mixin.client.namemanage;
+package com.bre.namemanager.mixin.client;
 
 import com.bre.namemanager.screens.EntityNamesScreen;
 import net.minecraft.client.gui.screen.*;

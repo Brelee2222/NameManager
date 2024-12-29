@@ -1,4 +1,4 @@
-package com.bre.namemanager.mixin.client;
+package com.bre.namemanager.namemanage;
 
 import java.io.*;
 import java.util.*;

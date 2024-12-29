@@ -1,5 +1,6 @@
-package com.bre.namemanager.mixin.client.namemanage;
+package com.bre.namemanager.mixin.client;
 
+import com.bre.namemanager.namemanage.NameManager;
 import net.minecraft.client.gui.screen.ChatScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

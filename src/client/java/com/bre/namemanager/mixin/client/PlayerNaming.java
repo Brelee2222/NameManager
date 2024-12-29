@@ -1,4 +1,4 @@
-package com.bre.namemanager.mixin.client.namemanage;
+package com.bre.namemanager.mixin.client;
 
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.text.Text;

@@ -1,5 +1,6 @@
-package com.bre.namemanager.mixin.client.namemanage;
+package com.bre.namemanager.mixin.client;
 
+import com.bre.namemanager.namemanage.NameManager;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.server.MinecraftServer;
@@ -28,12 +29,14 @@ public abstract class EntityNaming {
 
     @Shadow public abstract int getId();
 
+    @Shadow public abstract void setUuid(UUID uuid);
+
     @Unique
     public Text nickName;
 
 
     @Unique
-    private void setName(String name) {
+    public void setName(String name) {
         this.nickName = (name == null ? null : Text.of(name));
     }
 

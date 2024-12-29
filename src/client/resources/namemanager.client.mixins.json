@@ -4,8 +4,15 @@
   "package": "com.bre.namemanager.mixin.client",
   "compatibilityLevel": "JAVA_21",
   "client": [
+    "ChatNameMixin",
+    "MenuMixin",
+    "EntityNaming",
+    "PlayerNaming",
+    "ArmorStandNaming"
   ],
   "injectors": {
     "defaultRequire": 1
-  }
+  },
+  "mixins": [
+  ]
 }
